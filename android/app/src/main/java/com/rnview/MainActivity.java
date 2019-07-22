@@ -1,9 +1,5 @@
 package com.rnview;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.widget.TextView;
-
 import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {

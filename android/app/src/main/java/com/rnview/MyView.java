@@ -1,22 +1,12 @@
 package com.rnview;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
-
-import com.facebook.drawee.controller.AbstractDraweeControllerBuilder;
-import com.facebook.react.ReactRootView;
-import com.facebook.react.views.image.GlobalImageLoadListener;
-import com.facebook.react.views.image.ReactImageView;
-import com.facebook.react.views.text.ReactTextView;
-
-import javax.annotation.Nullable;
 
 public class MyView extends View {
     private String str = "这是文字啊。。。。";
